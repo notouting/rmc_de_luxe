@@ -46,9 +46,9 @@ const belezza = Belleza({ weight: "400", subsets: ["latin"] })
 const befair = Bellefair({ weight: "400", subsets: ["latin"] })
 const Footer = () => {
     return (
-        <footer className="text-gray-600 body-font bg-[#EAEAEA]">
+        <footer className="text-gray-600 body-font bg-[#EAEAEA] py-10">
             <div className="mx-[10%]">
-                <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+                <div className="flex items-center sm:flex-row flex-col">
                     <Link href={"/"} role="logo" className="flex gap-[8px]">
                         <LogoBuild />
                         <div className="flex flex-col justify-center">
